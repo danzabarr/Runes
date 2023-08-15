@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Effect : ScriptableObject
+public class Spell : ScriptableObject
 {
 	public string tooltip;
 	public int manaCost;

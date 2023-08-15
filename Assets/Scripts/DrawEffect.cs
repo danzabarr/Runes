@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Draw", menuName = "Effects/Draw")]
-public class DrawEffect : Effect
+public class DrawEffect : Spell
 {
 	public int drawAmount;
 
@@ -11,7 +11,7 @@ public class DrawEffect : Effect
 	{
 		for (int i = 0; i < drawAmount; i++)
 		{
-			caster.Draw(drawAmount);
+			//caster.Draw(drawAmount);
 			new WaitForSeconds(0.5f);
 		}
 	}
